@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    font-family: Zen Kaku Gothic Antique;
+    font-style: normal;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 14.66vh 17.36% 0 17.36%;
+}
+
+.login {
+    background-image: url("./images/bg-overlay.png"), url("./images/bg-img\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    transition: opacity 5s ease-in;
+}
+
+.register {
+    background-image: url("./images/bg-overlay.png"), url("./images/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    transition: opacity 5s ease-in;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    gap: 6.875vw;
+}
+
+.container .left {
+    width: 50%;
+    color: #FFF;
+}
+
+.container .left .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.902vw;
+    margin-top: 11.44vh;
+}
+
+.container .left .logo img {
+    width: 4.444vw;
+}
+
+.container .left .logo svg {
+    width: 13.61vw;
+    height: 4.11vh;
+}
+
+.container .left h2 {
+    font-size: 2.7vw;
+    font-weight: 700;
+    line-height: 5.20vh;
+    margin-top: 17.66vh;
+}
+
+.container .left p {
+    font-size: 1.111vw;
+    font-weight: 400;
+    line-height: 1.944vw;
+    margin-top: 2.66vh;
+}
+
+.container .right {
+    width: 50%;
+    display: flex;
+    height: 85.33vh;
+    border-radius: 1.66vw 1.66vw 0px 0px;
+    background: #FFF;
+    flex-direction: column;
+    padding: 2.77vh 2.77vw 0 2.77vw;
+}
+
+.container .right .heading h4 {
+    font-size: 0.88vw;
+    font-weight: 400;
+    line-height: 2.50vh;
+}
+
+.container .right .heading h3 {
+    font-size: 1.73vw;
+    font-weight: 500;
+    line-height: 4.88vh;
+}
+
+.container .right form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.722vh;
+}
+
+.container .right form .other {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.88vw;
+    font-weight: 500;
+    line-height: 2.5vh;
+}
+.container .right form .other .check{
+    display: flex;
+}
+.container .right form .other .check input{
+    height: 2.44vh;
+    width: 2.52vw;
+}
+.container .right form .other a {
+    color: #424242;
+}
+
+
+.container .right form .input-wrapper {
+    position: relative;
+    margin-top: 2.22vh;
+}
+
+.container .right form input {
+    border: 0.069vw solid #757575;
+    border-radius: 0.55vw;
+    position: relative;
+    width: 100%;
+    line-height: 6.222vh;
+    padding: 1.4vh 1.11vw;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 3.128vh;
+}
+
+.container .right form input::placeholder {
+    color: #757575;
+}
+
+.container .right form label {
+    position: absolute;
+    top: -1vh;
+    z-index: 1;
+    left: 2vw;
+    background-color: white;
+    padding: 0 0.347vw;
+    text-align: center;
+    font-size: 0.888vw;
+    font-weight: 400;
+    line-height: 2.50vh;
+}
+
+.container .right form .btn {
+    border: 0;
+    background: #000;
+    color: #FFF;
+}
+
+.container .right .line {
+    width: 100%;
+    height: 0.22vh;
+    margin-top: 2.88vh;
+    background-color: #E0E0E0
+}
+
+.container .right span {
+    align-self: center;
+    width: 20%;
+    background-color: #FFF;
+    margin-top: -1.7vh;
+    color: #212121;
+    text-align: center;
+    font-size: 0.88vw;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container .right .socials {
+    margin-top: 2.8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 100%;
+}
+
+li {
+    width: 100%;
+}
+
+.container .right .socials a {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #EEE;
+    background: #FAFAFA;
+    padding: 0.66vh 3.26vw;
+    color: #616161;
+    text-align: center;
+    font-size: 0.88vw;
+    font-weight: 400;
+    line-height: 2.50vh;
+    position: relative
+}
+
+.container .right .socials a img {
+    width: 1.25vw;
+    position: absolute;
+    left: 2.77vw;
+    top: 1vh;
+}
+
+.container .right h2 {
+    margin-top: 5.44vh;
+    font-size: 0.88vw;
+    font-weight: 400;
+    color: #212121;
+    text-align: center
+}
+
+.container .right h2 a {
+    font-size: 0.88vw;
+    font-weight: 700;
+    color: #212121;
+    cursor: pointer;
+}
+
+@media all and (max-width:450px)  {
+    .container{
+        flex-direction: column;
+    }
+    .container .right, .container .left{
+        width: 100%;
+    }
+    .container .right{
+        height: 75vh;
+        margin-top: 5vh;
+    }
+    .container .left .logo svg {
+        width: 27.61vw;
+        margin-left: 2vw;
+    }
+    .container .left .logo img {
+        width: 7.444vw;
+    }
+    .wrapper{
+        padding: 0 7.3vw;
+        height: min-content;
+        /* overflow: hidden; */
+    }
+    .container .left .logo {
+        margin-top: 5.4399999999999995vh;
+    }
+    .container .left h2 {
+        font-size: 5.7vw;
+        margin-top: 2.66vh;
+    }
+    .container .left p {
+        font-size: 4.111vw;
+        line-height: 4.944vw;
+        margin-top: 0.66vh;
+    }
+    .container .right .heading h4{
+        font-size: 2.88vw;
+    }
+    .container .right .heading h3 {
+        font-size: 6.5vw;
+    }
+    .container .right form{
+        margin-top: 2vh;
+    }
+    .container .right form label {
+        font-size: 2.88vw;
+        left: 6vw;
+    }
+    .container .right form input{
+        border-radius: 1.55vw;
+        font-size: 4vw;
+        padding: 1.4vh 3.11vw;
+    }
+    .container .right form .input-wrapper{
+        margin-top: 2vh;
+    }
+    .container .right form .other{
+        font-size: 2.5vw;
+    }
+    .container .right span {
+        margin-top: -0.7vh;
+        font-size: 1.88vw;
+    }
+    .container .right .socials a{
+        font-size: 3vw;
+
+    }
+    .container .right .socials a img {
+        width: 3.25vw;
+        left: 10.77vw;
+    }
+    .container .right h2{
+        font-size: 3vw;
+        margin-top: 3.44vh;
+    }
+    .container .right h2 a{
+        font-size: 3vw;
+    }
+}
